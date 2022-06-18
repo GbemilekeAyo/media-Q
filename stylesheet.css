@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    background: black;
+    font-family: 'poppins';
+ }
+
+
+.container{
+    width: 1140px;
+    background:hsl(0, 100%, 74%) url(image/bg-intro-desktop.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+    
+    
+}
+@media(max-width:900px){
+    .container{
+        width: 375px;
+        height: 140vh;
+    }
+}
+
+
+.container-row{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 25px;
+    
+
+    
+}
+.container-col{
+  
+    padding: 10% 5%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    margin-top: 33%;
+    
+}
+
+.text{
+    position: relative;
+    margin: 10px;
+
+    
+}
+
+.text h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+     font-family: verdana;
+}
+
+.text p{
+    line-height: 1.4rem;
+    padding-left: 2%;
+    line-height: 1.4rem;
+}
+
+
+@media(max-width:700px){
+    .text{
+        top: 30%;
+    }
+
+}
+
+
+.form{
+    position: relative;
+    top: 45px;
+    
+
+}
+
+
+
+.form h1{
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 100;
+    color: #fff;
+    background: hsl(248,32%,51%);
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 3px 0 0 hsl(248, 11%, 85%) ;
+}
+
+.form h1 span{
+    font-weight: 700;
+}
+
+
+nav{
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px ;
+    box-shadow: 0 3px 0 0 hsl(246, 25%, 77%) ;
+    
+}
+
+nav input{
+    padding: 15px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 4px;
+    font-weight: 600;
+    border: 1px solid hsl(246, 25%, 77%) ;
+
+}
+
+nav button{
+    padding: 15px;
+    width: 90%;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius:5px ;
+    background: hsl(154, 59%, 51%);
+    box-shadow: 0 2px 0 0 hsl(246, 25%, 77%);
+    margin-bottom: 10px;
+}
+
+nav button:hover{
+    background: rgb(122, 209, 122);
+}
+
+
+nav p{
+    font-weight: 550;
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+    font-family: verdana;
+}
+
+nav p span{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------/
+container-col h1{
+    color: #fff;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container-col p{
+    color: #fff;
+    line-height: 1.3rem;
+    font-size: 15px;
+}
+
+
+.form{
+    width: 50%;
+    position: relative;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.form h1{
+    font-size: 15px;
+    color: #fff;
+    background: hsl(248,32%,49%);
+    padding: 2px;
+    border-radius: 6px;
+    box-shadow: 0 3px 0 0 grey;
+}
+nav{
+    margin: 10px;
+    position: relative;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
